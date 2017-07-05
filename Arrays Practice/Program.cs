@@ -62,11 +62,43 @@ namespace Arrays_Practice
             ////The below can take elements from DIFFERENT ARRAYS and put them on the same line together. Useful!
 
             //Console.WriteLine("{0}, {1}, {2}, {3}", cohortNames[0], cohortNames[1], cohortNames[2], cohortNames[3]);
-                       
+
             //---------------------------------------------------------------------
 
+            // This creates arrays without already putting in the elements. Both of these are ready for 21 elements each.
+            // dataType[] nameOfArray = dataType[#ofElements];
 
+            //int[] numberOfSeats = new int[21];
+            //string[] seats = new string[21];
 
+            //// To "Fill out" your array with elements, this form of line can fill it out.
+            ////nameOfArray[index] = Element;
+            //seats[0] = "Jordan";
+
+            ////Allows user to fill out elements
+            //Console.WriteLine("Please enter in the name of the next student");
+            //seats[1] = Console.ReadLine();
+            //Console.WriteLine("The student in the second seat is {0}", seats[1]);
+
+            //Console.WriteLine("Please enter the age of the person in the second seat.");
+            //int[] studentAge = new int[21];
+            //studentAge[1] = int.Parse(Console.ReadLine());
+
+            // One way of having user write in an element
+            //Console.WriteLine("The age of the student in the first seat is " + studentAge[0]);
+
+            //Assign the value of the int at the 0 index of studentAge to the usre's input converted into an int
+
+            //studentAge[0] = int.Parse(Console.ReadLine());
+
+            ////Create a new string variable and set it equal to the int at the index of 0 ...
+            //// and convert it into a string!
+            
+            //string firstIndex = studentAge[0].ToString();
+
+            //--------------------------------------------------------------------------------
+
+                      
 
         }
     }
